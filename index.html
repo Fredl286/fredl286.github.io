@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Loan to Value Calculator</title>
+  <meta name="description" content="Loan to Value Calculator">
+  <meta name="Fred" content="LTV Calc">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+
+<iframe src="https://app.calconic.com/api/embed/calculator/5cf5252de79bab001cd2f926" sandbox="allow-same-origin allow-forms allow-scripts allow-top-navigation allow-popups-to-escape-sandbox allow-popups" title="Calconic_ Calculator" name="Calconic_ Calculator" height="643px" scrolling="no" style="width: 100%; border: 0; outline: none;"></iframe>
+<script>
+  (function() {
+    window.addEventListener("message",function(t){
+      var e="https://www.paypalobjects.com/api/checkout.4.0.141.js";
+      if(!document.querySelector('script[src="'+e+'"]')&&t.data&&"LOAD_PAYPAL"===t.data.action){
+      var a=document.createElement("script");a.src=e,a.async=!0,a.dataset={paypalCheckout:!0,noBridge:!0,state:"ppxo_meta",env:"production"},document.body.append(a)
+      }if(t.data&&"CALCONIC_UPDATE_HEIGHT"===t.data.action){
+      var s=documenet.querySelector('iframe[src="https://app.calconic.com/api/embed/calculator/t.data.payload.id"]');
+      if(s){s.height=t.data.payload.height}}
+    });
+  })();
+</script>
+
+</body>
+</html>
