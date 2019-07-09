@@ -2,7 +2,6 @@
 
 ## Competition!
  - [Live League Table](https://docs.google.com/spreadsheets/d/e/2PACX-1vT8kamD-N_5A5G9Vm3U6cHzF2qx3RtrzxURl8BgLMBKLJH91QOJ8iiuQrfDfV3wGw/pubhtml)
--- 
 
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
