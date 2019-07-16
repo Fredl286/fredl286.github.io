@@ -1,8 +1,5 @@
 # Helpful Links
 
-## Competition!
- - [Live League Table](https://docs.google.com/spreadsheets/d/e/2PACX-1vT8kamD-N_5A5G9Vm3U6cHzF2qx3RtrzxURl8BgLMBKLJH91QOJ8iiuQrfDfV3wGw/pubhtml)
-
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
 - [HubSolv](https://ukda.hubsolv.com)
@@ -30,3 +27,10 @@
 #### Check House Prices
 - [Zoopla](https://www.zoopla.co.uk/house-prices/)
 - [RightMove](https://www.rightmove.co.uk/house-prices.html)
+
+#### Advisors/CRU
+
+- [Helpful Docs](https://docs.google.com/spreadsheets/d/e/2PACX-1vTsqIuxk_dFCx3uAgEo5Ja8LaZoSnoI93THmJLSriJa5mF90LYAUht2NAV4I7DJBizTAV1TgiJqJfet/pubhtml)
+- [Call Cutting Guide](https://fredl286.github.io/call_cutting_guide.pdf)
+- [Client Journey Process Map](https://fredl286.github.io/process_map.pdf)
+
