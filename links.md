@@ -1,5 +1,8 @@
 # Helpful Links
 
+## Team Incentive
+- [Points Table](https://docs.google.com/spreadsheets/d/e/2PACX-1vR5gPuHswCN08TixRUxYy8M_0J4FK7ZrKJ0D4b8aY_0mT5XWTtWRLHowk-O59kGNZv9EGktl8U3cw7F/pubhtml)
+
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
 - [HubSolv](https://ukda.hubsolv.com)
