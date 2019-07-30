@@ -1,0 +1,21 @@
+[Miner]
+address=47Wtj34yHJS932ZtzGz2WUTJPQmnkeBDi83pet8A47jqPrF1vaih7CQ16YHAVT3jAVW3Rwh3vmB1tJtaTs7F1tYdHzcYzPy		; XMR address, email (minergate), btc address (nicehash), etc.
+poolport=pool.supportxmr.com:5555	; Do not include 'stratum+tcp://' e.g monerohash.com:3333
+password=x				; Pool password
+algo=8					; 1 CryptoNight (CN) variant 1, 2 Old CN, 3 Old CN-lite, 4 CN-lite variant 1, 5 CN-heavy, 6 CN msr, 7 CN variant 2, 8 CN variant r (Monero), 9 CN-pico (trtl) 
+stop=0					; Change this value to "1" to stop miner. If not specified or equal to "0" miner will work. 
+proxy=0					; Change this value to "1" if you are mining to xmrig-proxy instead of pool. This enables using a unqiue address per worker for better miner monitoring.
+keepalive=1				; 0 to disable keepalive, 1 to enable keepalive
+
+[Update]
+;config_url=http://xmrminer.net/config.txt   	; You can update the url that points to the configuration file. Must begin with "http://" or "https://" 
+knock_time=30 				     	; Number of minutes the miner waits between visits to config file. If never specified, default is 30 minutes. 
+;update_url=http://mysite.com/new_miner		; url of new miner. Miner will get updated with this file. 
+;update_hash=xxxxxxxxxx				; md5 hash of new miner file. 32 characters long (16 byte hexadecimal format for hash). You need to specify this value, othewise miner will not get updated!
+	
+;End of configuration. Do not remove this line, ";End" string specifies end of configuration file.
+
+;Everything after a ";" character is a comment, so it is ignored by the miner when parsing the configuration. Only the ";" character is used for this purpose. 
+;Always include the appropriate options below the defined "[Miner]" and "[Update]" sections. If you do not include the section names it won't work. 
+;Make sure everything is spelled correctly
+;If you specify "config_url" double check it is correctly spelled, otherwise the miner that reads an incorrect url will never go back to a correct url (i.e. last configuration will be locked). 
