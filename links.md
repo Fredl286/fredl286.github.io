@@ -1,6 +1,5 @@
 # Helpful Links
 
-![Sleeping Jake](https://fredl286.github.io/jake_sleep.jpg "Having a nice nap mate?")
 
 ## August
 - [Agent Averages](https://docs.google.com/spreadsheets/d/1ng6lwnATwcUQDiYqeNzhEL69lfSDGrSjUeM01qcM6yI/edit?usp=sharing)
