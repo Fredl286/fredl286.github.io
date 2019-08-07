@@ -1,5 +1,7 @@
 # Helpful Links
 
+![what a nob]https://fredl286.github.io/jake.jpg "Sleeping Jake")
+
 ## August
 - [Agent Averages](https://docs.google.com/spreadsheets/d/1ng6lwnATwcUQDiYqeNzhEL69lfSDGrSjUeM01qcM6yI/edit?usp=sharing)
 
