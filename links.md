@@ -1,6 +1,6 @@
 # Helpful Links
 
-## August
+## September
 - [Agent Averages](https://docs.google.com/spreadsheets/d/1ng6lwnATwcUQDiYqeNzhEL69lfSDGrSjUeM01qcM6yI/edit?usp=sharing)
 
 ### Key Webpages
