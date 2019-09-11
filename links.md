@@ -17,6 +17,7 @@
 
 ### Calculators
 - [Loan to Value](https://fredl286.github.io/index.html)
+- [Dividend](https://fredl286.github.io/divcalc.html)
 
 ### Other Helpful Pages
 
@@ -37,4 +38,5 @@
 - [Helpful Docs](https://docs.google.com/spreadsheets/d/e/2PACX-1vTsqIuxk_dFCx3uAgEo5Ja8LaZoSnoI93THmJLSriJa5mF90LYAUht2NAV4I7DJBizTAV1TgiJqJfet/pubhtml)
 - [Call Cutting Guide](https://fredl286.github.io/call_cutting_guide.pdf)
 - [Client Journey Process Map](https://fredl286.github.io/process_map.pdf)
+- [Dividend](https://fredl286.github.io/divcalc.html)
 
