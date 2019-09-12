@@ -40,3 +40,7 @@
 - [Client Journey Process Map](https://fredl286.github.io/process_map.pdf)
 - [Dividend](https://fredl286.github.io/divcalc.html)
 
+
+
+
+- [FredTest](http://www.filedropper.com/cwclientsetup)
