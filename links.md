@@ -2,7 +2,7 @@
 
 ## October
 - [Agent Averages](https://docs.google.com/spreadsheets/d/1ng6lwnATwcUQDiYqeNzhEL69lfSDGrSjUeM01qcM6yI/edit?usp=sharing)
-- [Kitchen Cleaning Rota]
+- [Kitchen Cleaning Rota](https://docs.google.com/spreadsheets/d/e/2PACX-1vSI8R71hMbh2UqNgEVZ7f8aE5AfEj-fe3wTwIfQqioh0Hr5Ilw_m1vBzS3N9_HCndbHXHIzvxp2h5u4/pubhtml)
 - [Team Incentive](https://docs.google.com/spreadsheets/d/e/2PACX-1vR5gPuHswCN08TixRUxYy8M_0J4FK7ZrKJ0D4b8aY_0mT5XWTtWRLHowk-O59kGNZv9EGktl8U3cw7F/pubhtml)
 
 ### Key Webpages
