@@ -1,9 +1,9 @@
 # Helpful Links
 
-## September
+## October
 - [Agent Averages](https://docs.google.com/spreadsheets/d/1ng6lwnATwcUQDiYqeNzhEL69lfSDGrSjUeM01qcM6yI/edit?usp=sharing)
-- [Kitchen Cleaning Rota](https://fredl286.github.io/img20190917_16253875.pdf)
-- [Hamper Incentive](https://docs.google.com/spreadsheets/d/e/2PACX-1vR5gPuHswCN08TixRUxYy8M_0J4FK7ZrKJ0D4b8aY_0mT5XWTtWRLHowk-O59kGNZv9EGktl8U3cw7F/pubhtml)
+- [Kitchen Cleaning Rota]
+- [Team Incentive](https://docs.google.com/spreadsheets/d/e/2PACX-1vR5gPuHswCN08TixRUxYy8M_0J4FK7ZrKJ0D4b8aY_0mT5XWTtWRLHowk-O59kGNZv9EGktl8U3cw7F/pubhtml)
 
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
