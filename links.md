@@ -9,7 +9,7 @@
 - [HubSolv](https://ukda.hubsolv.com)
 - [Helpful Docs](https://docs.google.com/spreadsheets/d/e/2PACX-1vRwRXzQ10uU-YMOcDWJo836nKzQIA1CGDkn2ToPBy5y23I5WnLNmlBkcY2LUgok3wcEsfII0bU0znHK/pubhtml)
 - [Loan to Value Calculator](https://fredl286.github.io/index.html)
-- [Webform(If you need to resend with transfer menu open)](https://ukdebtadvisors.cnx1.uk/Forms/UKDebtAdvisors/?Version=DebtFreedom
+- [Webform if you need to resend with transfer menu open](https://ukdebtadvisors.cnx1.uk/Forms/UKDebtAdvisors/?Version=DebtFreedom
 
 ### Forms
 - [IVA Transfer](https://forms.office.com/Pages/ResponsePage.aspx?id=zzlH9zQG20a_P3qbSiIaO6eWoE6C5fVEpfOfHXL1ZXNUNEk0UlJWVzZQM0xCMlpCTDc2NUc3UE5UMC4u)
