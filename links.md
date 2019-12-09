@@ -42,5 +42,6 @@
 - [Call Cutting Guide](https://fredl286.github.io/call_cutting_guide.pdf)
 - [Client Journey Process Map](https://fredl286.github.io/process_map.pdf)
 - [Dividend](https://fredl286.github.io/divcalc.html)
+
 ![alt text](https://fredl286.github.io/download.png "Christmas Banner")![alt text](https://fredl286.github.io/download.png "Christmas Banner")
 ___
