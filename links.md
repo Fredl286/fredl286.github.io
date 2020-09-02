@@ -1,8 +1,7 @@
 # Helpful Links
 
-## February
+## September
 - [Agent Averages](https://docs.google.com/spreadsheets/d/1ng6lwnATwcUQDiYqeNzhEL69lfSDGrSjUeM01qcM6yI/edit?usp=sharing)
-- [Kitchen Cleaning Rota](https://docs.google.com/spreadsheets/d/e/2PACX-1vSI8R71hMbh2UqNgEVZ7f8aE5AfEj-fe3wTwIfQqioh0Hr5Ilw_m1vBzS3N9_HCndbHXHIzvxp2h5u4/pubhtml)
 
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
@@ -10,6 +9,7 @@
 - [Helpful Docs](https://docs.google.com/spreadsheets/d/e/2PACX-1vRwRXzQ10uU-YMOcDWJo836nKzQIA1CGDkn2ToPBy5y23I5WnLNmlBkcY2LUgok3wcEsfII0bU0znHK/pubhtml)
 - [Loan to Value Calculator](https://fredl286.github.io/index.html)
 - [Webform (If you have transfer menu open)](https://ukdebtadvisors.cnx1.uk/Forms/UKDebtAdvisors/?Version=DebtFreedom)
+- [UKDA Culture](https://fredl286.github.io/UKDA%20Culture.pdf)
 
 ### Forms
 - [IVA Transfer](https://forms.office.com/Pages/ResponsePage.aspx?id=zzlH9zQG20a_P3qbSiIaO6eWoE6C5fVEpfOfHXL1ZXNUNEk0UlJWVzZQM0xCMlpCTDc2NUc3UE5UMC4u)
