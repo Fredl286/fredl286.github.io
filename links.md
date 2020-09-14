@@ -4,6 +4,7 @@
 - [Agent Averages](https://docs.google.com/spreadsheets/d/1ng6lwnATwcUQDiYqeNzhEL69lfSDGrSjUeM01qcM6yI/edit?usp=sharing)
 
 ### Key Webpages
+- [Gregory Pennington qualifying questions](https://www.gregorypennington.co.uk/qualify/index-v2.html)
 - [Unique Solutions Live Transfer](https://www.uniquesolutions.legal/ukda.php)
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
 - [TrustLink](https://backend.trust-link.co.uk)
