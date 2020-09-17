@@ -1,8 +1,5 @@
 # Helpful Links
 
-## September
-- [Agent Averages](https://docs.google.com/spreadsheets/d/1ng6lwnATwcUQDiYqeNzhEL69lfSDGrSjUeM01qcM6yI/edit?usp=sharing)
-
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
 - [TrustLink](https://backend.trust-link.co.uk)
