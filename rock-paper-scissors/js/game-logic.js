@@ -212,8 +212,8 @@ const setComputerMoves = () => {
 
     if (computerMoveTwoType === 0) {
         computerMoveTwoType = 'rock';
-    } else if (computerMoveTwoTypee === 1) {
-        computerMoveTwoTypee = 'paper';
+    } else if (computerMoveTwoType === 1) {
+        computerMoveTwoType = 'paper';
     } else {
         computerMoveTwoType = 'scissors';
     }
@@ -230,5 +230,5 @@ const setComputerMoves = () => {
     const computerMoveValue2 = Math.floor(Math.random() * (99 - computerMoveValue1)) + 1;
     const computerMoveValue3 = 99 - computerMoveValue1 - computerMoveValue2;
 
-    setPlayerMoves = ('Player Two', computerMoveOneType, computerMoveValue1, computerMoveTwoType, computerMoveValue2, computerMoveThreeType, computerMoveValue3)
+    setPlayerMoves('Player Two', computerMoveOneType, computerMoveValue1, computerMoveTwoType, computerMoveValue2, computerMoveThreeType, computerMoveValue3)
 }
