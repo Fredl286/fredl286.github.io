@@ -5,7 +5,7 @@
 - [Dialler Form Direct Link (helpful if have transfer menu open](https://ukdebtadvisors.cnx1.uk/Forms/UKDebtAdvisors/?Version=DebtFreedom)
 - [TrustLink](https://backend.trust-link.co.uk)
 - [Helpful Docs](https://docs.google.com/spreadsheets/d/e/2PACX-1vRwRXzQ10uU-YMOcDWJo836nKzQIA1CGDkn2ToPBy5y23I5WnLNmlBkcY2LUgok3wcEsfII0bU0znHK/pubhtml)
-- [Loan to Value Calculator](https://fredl286.github.io/index.html)
+- [Equity/Loan to Value Needed Debt Calculator](https://fredl286.github.io/index.html)
 - [Gregory Pennington qualifying questions](https://www.gregorypennington.co.uk/qualify/index-v2.html)
 - [Unique Solutions Live Transfer](https://www.uniquesolutions.legal/ukda.php)
 
@@ -15,7 +15,7 @@
 - [Complaint Log](https://forms.office.com/Pages/ResponsePage.aspx?id=zzlH9zQG20a_P3qbSiIaO6eWoE6C5fVEpfOfHXL1ZXNURVkyWEJFTTk2N0ZYODNYU0VJMjBIUFVaVi4u)
 
 ### Calculators
-- [Loan to Value](https://fredl286.github.io/index.html)
+- [Equity/Loan to Value Needed Debt Calculator](https://fredl286.github.io/index.html)
 - [Dividend](https://fredl286.github.io/divcalc.html)
 
 ### Other Helpful Pages
