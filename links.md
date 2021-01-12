@@ -1,5 +1,9 @@
 # Helpful Links
 
+
+### Incentive Scoreboard
+- [Link](https://fredl286.github.io/covidincentive.html)
+
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
 - [Dialler Form Direct Link (helpful if have transfer menu open](https://ukdebtadvisors.cnx1.uk/Forms/UKDebtAdvisors/?Version=DebtFreedom)
