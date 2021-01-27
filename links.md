@@ -1,17 +1,15 @@
 # Helpful Links
 
-
-### Incentive Scoreboard
-- [Link](https://fredl286.github.io/covidincentive.html)
-
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
-- [Dialler Form Direct Link (helpful if have transfer menu open](https://ukdebtadvisors.cnx1.uk/Forms/UKDebtAdvisors/?Version=DebtFreedom)
 - [TrustLink](https://backend.trust-link.co.uk)
 - [Helpful Docs](https://docs.google.com/spreadsheets/d/e/2PACX-1vRwRXzQ10uU-YMOcDWJo836nKzQIA1CGDkn2ToPBy5y23I5WnLNmlBkcY2LUgok3wcEsfII0bU0znHK/pubhtml)
+- [Dialler Form Direct Link (helpful if have transfer menu open](https://ukdebtadvisors.cnx1.uk/Forms/UKDebtAdvisors/?Version=DebtFreedom)
+
 - [Equity/Loan to Value Needed Debt Calculator](https://fredl286.github.io/index.html)
 - [Gregory Pennington qualifying questions](https://www.gregorypennington.co.uk/qualify/index-v2.html)
 - [Unique Solutions Live Transfer](https://www.uniquesolutions.legal/ukda.php)
+- [Natwest Affordability Calculator](https://rbsintermediaries.hdddirectsolutions.co.uk/Natwest/MortgageCalculator/AdditionalBorrowing)
 
 ### Forms
 - [IVA Transfer](https://forms.office.com/Pages/ResponsePage.aspx?id=zzlH9zQG20a_P3qbSiIaO6eWoE6C5fVEpfOfHXL1ZXNUNEk0UlJWVzZQM0xCMlpCTDc2NUc3UE5UMC4u)
