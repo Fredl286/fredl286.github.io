@@ -1,5 +1,8 @@
 # Helpful Links
 
+## Jan 28th Team Incentive!!
+- [Scoreboard](https://fredl286.github.io/janincentive.html)
+
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
 - [TrustLink](https://backend.trust-link.co.uk)
