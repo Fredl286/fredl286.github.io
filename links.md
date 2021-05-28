@@ -1,7 +1,5 @@
+<iframe src="https://fredl286.github.io/slidetext/" width="1900" height="180"></iframe>
 # Helpful Links
-
-## Jan 28th Team Incentive!!
-- [Scoreboard](https://fredl286.github.io/janincentive.html)
 
 ### Key Webpages
 - [Dialler Login](https://ukdebtadvisors.cnx1.uk)
