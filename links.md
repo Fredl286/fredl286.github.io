@@ -8,8 +8,6 @@
 - [Dialler Form Direct Link (helpful if have transfer menu open](https://ukdebtadvisors.cnx1.uk/Forms/UKDebtAdvisors/?Version=DebtFreedom)
 
 - [Equity/Loan to Value Needed Debt Calculator](https://fredl286.github.io/index.html)
-- [Gregory Pennington qualifying questions](https://www.gregorypennington.co.uk/qualify/index-v2.html)
-- [Unique Solutions Live Transfer](https://www.uniquesolutions.legal/ukda.php)
 - [Natwest Affordability Calculator](https://rbsintermediaries.hdddirectsolutions.co.uk/Natwest/MortgageCalculator/AdditionalBorrowing)
 
 ### Forms
@@ -27,7 +25,6 @@
 - [Search the insolvency register](https://www.insolvencydirect.bis.gov.uk/eiir/IIRRegisterNameInput.asp?option=NAME&court=ALL)
 - [Find council by post code](https://www.gov.uk/pay-council-tax)
 - [UKDA Culture](https://fredl286.github.io/UKDA%20Culture.pdf)
-
 
 #### Advisors/CRU
 
