@@ -1,4 +1,4 @@
-<iframe src="https://fredl286.github.io/slidetext/" width="1900" height="180"></iframe>
+<iframe src="https://fredl286.github.io/slidetext/" width="800" height="180"></iframe>
 # Helpful Links
 
 ### Key Webpages
