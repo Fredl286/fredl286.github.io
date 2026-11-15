@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>North Kilworth canal trip - offline map</title>
+  <style>
+    :root { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; color: #17212b; background: #f2f5f5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    header, main, footer { max-width: 760px; margin: auto; }
+    header { padding: 18px 16px 10px; }
+    h1 { font-size: 1.55rem; margin: 0 0 8px; }
+    h2 { font-size: 1.25rem; margin: 26px 0 8px; }
+    p { line-height: 1.45; }
+    header p { margin: 7px 0; }
+    .legend { display: flex; flex-wrap: wrap; gap: 8px 14px; margin: 12px 0; font-size: .9rem; }
+    .key { display: inline-flex; align-items: center; gap: 6px; }
+    .line { display: inline-block; width: 23px; border-top: 5px solid #14804a; }
+    .line.red { border-top: 5px dashed #bb2929; }
+    .line.amber { border-top: 5px dotted #a76b00; }
+    .badge { display: inline-grid; place-items: center; border-radius: 50%; width: 23px; height: 23px; color: white; font-weight: bold; }
+    .pub { background: #793bad; }
+    .shop { background: #087c99; }
+    .visit { background: #9c6100; }
+    main { padding: 0 12px 20px; }
+    .diagram { border: 1px solid #cbd6d6; border-radius: 12px; background: #fff; overflow: hidden; }
+    svg { display: block; width: 100%; height: auto; }
+    svg text { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; font-size: 13px; fill: #14232b; }
+    svg .small { font-size: 11px; fill: #465861; }
+    svg .section { font-size: 12px; font-weight: 700; fill: #576b72; }
+    svg .place { font-weight: 700; }
+    svg a { cursor: pointer; }
+    svg a:focus { outline: 2px solid #175caa; }
+    svg .route { fill: none; stroke: #14804a; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+    svg .blocked { fill: none; stroke: #bb2929; stroke-width: 7; stroke-dasharray: 11 8; stroke-linecap: round; stroke-linejoin: round; }
+    svg .uncertain { fill: none; stroke: #a76b00; stroke-width: 7; stroke-dasharray: 2 8; stroke-linecap: round; stroke-linejoin: round; }
+    svg .stop { fill: white; stroke: #14804a; stroke-width: 3; }
+    svg .closed { fill: #bb2929; stroke: white; stroke-width: 2; }
+    svg .home { fill: #1769aa; stroke: white; stroke-width: 2; }
+    svg .poi { stroke: white; stroke-width: 2; }
+    svg .poi-letter { fill: white; font-size: 10px; font-weight: 800; text-anchor: middle; dominant-baseline: central; }
+    .hint { margin: 10px 4px; font-size: .9rem; color: #4a5a60; }
+    .card { background: #fff; border: 1px solid #d5dddd; border-radius: 10px; padding: 12px 14px; margin: 9px 0; scroll-margin-top: 12px; }
+    .card h3 { margin: 0 0 4px; font-size: 1rem; }
+    .card p { margin: 0; font-size: .93rem; }
+    .type { display: inline-block; font-size: .75rem; font-weight: 700; color: white; padding: 2px 7px; border-radius: 12px; margin-bottom: 5px; }
+    .warning { border-left: 4px solid #bf7a00; padding: 8px 12px; background: #fff6df; }
+    footer { padding: 0 16px 20px; color: #4c5d63; font-size: .85rem; }
+    a { color: #155e9b; }
+  </style>
+</head>
+<body>
+  <header>
+    <p><a href="index.html">← Trip home</a></p>
+    <h1>North Kilworth canal trip</h1>
+    <p><strong>Offline schematic:</strong> 16–20 November 2026. Open or share this file without an internet connection.</p>
+    <p>This is a <strong>route diagram, not a geographical map</strong>. Distances, directions and marker positions are not to scale. Tap a lettered icon for details.</p>
+    <div class="legend">
+      <span class="key"><span class="line"></span> Reach between closures</span>
+      <span class="key"><span class="line red"></span> Beyond a closure</span>
+      <span class="key"><span class="line amber"></span> Welford approach unconfirmed</span>
+      <span class="key"><span class="badge pub">P</span> Pub / food</span>
+      <span class="key"><span class="badge shop">S</span> Shop</span>
+      <span class="key"><span class="badge visit">W</span> Visit / walk</span>
+    </div>
+  </header>
+  <main>
+    <div class="diagram">
+      <svg viewBox="0 0 400 1210" role="img" aria-labelledby="map-title map-desc">
+        <title id="map-title">Schematic canal route from Leicester to Braunston via Foxton and Watford</title>
+        <desc id="map-desc">The navigable reach is between closed Foxton and Watford locks. Welford Lock is also closed: the approach is unconfirmed and Welford Basin is beyond the closure. Tap the pub, shop or walking icons for details.</desc>
+        <text x="18" y="28" class="section">NORTH / LEICESTER SIDE</text>
+        <path class="blocked" d="M 184 58 L 184 211"/>
+        <text x="201" y="63" class="place">Leicester</text>
+        <text x="201" y="82" class="small">Grand Union Leicester Line</text>
+        <circle cx="184" cy="58" r="6" class="closed"/>
+        <path class="blocked" d="M 184 143 L 285 143 L 285 180"/>
+        <text x="295" y="147" class="place">Market</text>
+        <text x="295" y="164" class="place">Harborough</text>
+        <a href="#harborough" aria-label="Market Harborough details"><circle cx="285" cy="180" r="13" class="poi" fill="#9c6100"/><text x="285" y="180" class="poi-letter">W</text></a>
+        <text x="201" y="126" class="small">Foxton junction</text>
+        <text x="201" y="205" class="place">Foxton locks: CLOSED</text>
+        <circle cx="184" cy="211" r="9" class="closed"/>
+        <text x="22" y="205" class="small">Boat cannot pass</text>
+        <a href="#foxton-inn" aria-label="Foxton Locks Inn details"><circle cx="57" cy="245" r="13" class="poi" fill="#793bad"/><text x="57" y="245" class="poi-letter">P</text></a>
+        <a href="#foxton-village" aria-label="Foxton village pubs details"><circle cx="91" cy="245" r="13" class="poi" fill="#793bad"/><text x="91" y="245" class="poi-letter">P</text></a>
+        <text x="110" y="250" class="small">Foxton pubs (walk)</text>
+        <path class="route" d="M 184 220 L 184 825"/>
+        <circle cx="184" cy="284" r="6" class="stop"/>
+        <text x="201" y="280" class="place">Foxton approach</text>
+        <text x="201" y="297" class="small">Itinerary: moor near Bridge 59</text>
+        <circle cx="184" cy="355" r="6" class="stop"/>
+        <text x="201" y="351" class="place">Husbands Bosworth</text>
+        <text x="201" y="368" class="small">Tunnel</text>
+        <circle cx="184" cy="424" r="9" class="home"/>
+        <text x="201" y="420" class="place">North Kilworth Marina</text>
+        <text x="201" y="437" class="small">Pickup and return</text>
+        <a href="#kilworth-house" aria-label="Kilworth House Hotel details"><circle cx="82" cy="424" r="13" class="poi" fill="#9c6100"/><text x="82" y="424" class="poi-letter">W</text></a>
+        <text x="16" y="400" class="small">Kilworth House</text>
+        <circle cx="184" cy="495" r="6" class="stop"/>
+        <text x="14" y="490" class="place">Welford Junction</text>
+        <path class="uncertain" d="M 184 495 L 280 495 L 280 520"/>
+        <circle cx="280" cy="520" r="9" class="closed"/>
+        <text x="201" y="544" class="small">Welford Lock closed</text>
+        <path class="blocked" d="M 280 530 L 280 560"/>
+        <circle cx="280" cy="560" r="6" class="closed"/>
+        <text x="201" y="583" class="place">Welford Basin</text>
+        <text x="201" y="600" class="small">Beyond closed lock</text>
+        <a href="#wharf-inn" aria-label="Wharf Inn details"><circle cx="280" cy="627" r="13" class="poi" fill="#793bad"/><text x="280" y="627" class="poi-letter">P</text></a>
+        <text x="298" y="632" class="small">Wharf Inn</text>
+        <circle cx="184" cy="660" r="6" class="stop"/>
+        <text x="201" y="656" class="place">Crick</text>
+        <text x="201" y="673" class="small">Itinerary: Bridges 12–15</text>
+        <a href="#crick-pubs" aria-label="Crick pubs details"><circle cx="230" cy="706" r="13" class="poi" fill="#793bad"/><text x="230" y="706" class="poi-letter">P</text></a>
+        <a href="#crick-shops" aria-label="Crick shops details"><circle cx="267" cy="706" r="13" class="poi" fill="#087c99"/><text x="267" y="706" class="poi-letter">S</text></a>
+        <a href="#cracks-hill" aria-label="Cracks Hill details"><circle cx="304" cy="706" r="13" class="poi" fill="#9c6100"/><text x="304" y="706" class="poi-letter">W</text></a>
+        <text x="209" y="737" class="small">Pubs, shops and walks</text>
+        <circle cx="184" cy="765" r="6" class="stop"/>
+        <text x="201" y="761" class="place">Crick Tunnel</text>
+        <text x="201" y="778" class="small">Itinerary: turn at Bridge 7</text>
+        <circle cx="184" cy="833" r="9" class="closed"/>
+        <text x="201" y="829" class="place">Watford locks: CLOSED</text>
+        <text x="201" y="846" class="small">Boat cannot pass</text>
+        <path class="blocked" d="M 184 842 L 184 960 L 95 1025 L 95 1082"/>
+        <path class="blocked" d="M 184 960 L 282 1025 L 282 1082"/>
+        <circle cx="184" cy="908" r="6" class="closed"/>
+        <text x="201" y="912" class="place">Norton Junction</text>
+        <text x="24" y="1020" class="place">Braunston</text>
+        <text x="14" y="1040" class="small">then Oxford Canal</text>
+        <text x="14" y="1057" class="small">towards Rugby</text>
+        <text x="200" y="1020" class="place">Grand Union south</text>
+        <text x="200" y="1040" class="small">towards Buckby and</text>
+        <text x="200" y="1057" class="small">Northampton / London</text>
+        <text x="18" y="1155" class="section">SOUTH / WATFORD SIDE</text>
+      </svg>
+    </div>
+    <p class="hint">Tap P, S or W on the diagram for a place's details. The icons mark shore visits, not boat access.</p>
+    <h2>Places to stop, shop and explore</h2>
+    <article class="card" id="foxton-inn"><span class="type pub">PUB / FOOD</span><h3>Foxton Locks Inn</h3><p>At Foxton Locks. Visit on foot from a suitable mooring on your side of the flight; check opening and food times.</p></article>
+    <article class="card" id="foxton-village"><span class="type pub">PUB / FOOD</span><h3>Foxton village pubs</h3><p>The itinerary mentions The Black Horse and The Shoulder of Mutton. Check current opening times and the walking route.</p></article>
+    <article class="card" id="wharf-inn"><span class="type pub">PUB / FOOD</span><h3>Wharf Inn, Welford</h3><p>Near Welford Basin, beyond the closed lock by boat. Consider walking or a taxi after checking the route.</p></article>
+    <article class="card" id="crick-pubs"><span class="type pub">PUB / FOOD</span><h3>Crick pubs</h3><p>The itinerary mentions The Red Lion, The Wheatsheaf and The Royal Oak. Check addresses, opening times and food service.</p></article>
+    <article class="card" id="crick-shops"><span class="type shop">SHOP</span><h3>Crick shops</h3><p>The itinerary suggests the Co-op for essentials and Crick Garden Centre for browsing and a café. Check current locations and hours.</p></article>
+    <article class="card" id="cracks-hill"><span class="type visit">WALK</span><h3>Cracks Hill and Crick Millennium Wood</h3><p>Walking options mentioned in the itinerary. Check local paths, daylight and ground conditions before setting off.</p></article>
+    <article class="card" id="harborough"><span class="type visit">VISIT / WALK</span><h3>Market Harborough</h3><p>The itinerary suggests a roughly five-mile towpath walk or a taxi from the Foxton area. The boat cannot pass the closed Foxton flight to get there.</p></article>
+    <article class="card" id="kilworth-house"><span class="type visit">VISIT</span><h3>Kilworth House Hotel</h3><p>The itinerary suggests a taxi for afternoon tea, dining and grounds. Check availability before travelling.</p></article>
+    <p class="warning"><strong>Welford Lock closure:</strong> The notice you supplied from Welford Marina says the lock closes on 16 November because of low reservoir levels, opens on 21–22 November, then closes again on 23 November until further notice. Your trip is 16–20 November, so Welford Basin is beyond the closed lock. The usable approach and turning points on the arm are unconfirmed. Check <a href="https://canalrivertrust.org.uk/notices">Canal &amp; River Trust notices</a> before travelling, as the situation may change.</p>
+    <p class="warning"><strong>Check before cruising:</strong> The itinerary states Foxton and Watford flights are closed. Closure status, other restrictions, turning points and moorings have not been independently confirmed. Ask the marina and check current Canal &amp; River Trust notices. Do not use this diagram for navigation.</p>
+  </main>
+  <footer>Self-contained: no external scripts, fonts, map tiles or network requests. Locations are schematic and opening details may change.</footer>
+</body>
+</html>
