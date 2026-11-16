@@ -23,7 +23,7 @@ Our accompanying Places of Interest Guide contains detailed information on desti
 
 ## Day 2
 
-> **Welford Lock closure:** Welford Marina reports the lock closed during your trip, so Welford Basin cannot be reached by boat through the lock as suggested below. Check current Canal & River Trust notices and turning points with the marina before setting off.
+> **Welford Lock Closure:** Welford lock reported closed from Monday 16th.
 
 - Before setting off, take the scenic towpath walk into Market Harborough (approximately 5 miles) to explore the town's independent shops, cafés and restaurants.
 - Alternatively, take a short taxi ride to Kibworth to visit the Kibworth Antique Centre & Café, Kibworth Garden Centre, or enjoy coffee and cake at one of the village cafés.

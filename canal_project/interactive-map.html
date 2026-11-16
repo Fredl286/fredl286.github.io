@@ -58,6 +58,37 @@
     .swatch.pub { width: 17px; height: 17px; border-radius: 50%; background: #7b3fb2; }
     .swatch.shop { width: 17px; height: 17px; border-radius: 50%; background: #087e9b; }
     .swatch.visit { width: 17px; height: 17px; border-radius: 50%; background: #d58b00; }
+
+    .map-expand-control {
+      min-width: 44px;
+      min-height: 44px;
+      padding: 0 12px;
+      border: 0;
+      border-radius: 4px;
+      background: #fff;
+      color: #17212b;
+      font: 600 14px/1 system-ui, -apple-system, "Segoe UI", sans-serif;
+      cursor: pointer;
+      box-shadow: 0 1px 5px rgba(0, 0, 0, .4);
+    }
+
+    .map-expand-control:hover { background: #f3f6f7; }
+    .map-expand-control:focus-visible { outline: 3px solid #1769aa; outline-offset: 2px; }
+
+    html.map-expanded,
+    html.map-expanded body { height: 100%; overflow: hidden; }
+
+    #map.map-expanded {
+      position: fixed !important;
+      inset: 0;
+      z-index: 2000;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      min-height: 0;
+      border-radius: 0;
+    }
+
     #map { width: 100%; height: min(72vh, 850px); min-height: 490px; }
 
     .leaflet-popup-content { line-height: 1.45; }
@@ -101,6 +132,40 @@
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+
+    const mapContainer = map.getContainer();
+    let expandButton;
+
+    function setMapExpanded(expanded) {
+      mapContainer.classList.toggle("map-expanded", expanded);
+      document.documentElement.classList.toggle("map-expanded", expanded);
+      expandButton.textContent = expanded ? "Exit full screen" : "Expand map";
+      expandButton.setAttribute("aria-label", expanded ? "Exit full screen map view" : "Expand map to fill the screen");
+      expandButton.setAttribute("aria-pressed", String(expanded));
+      window.requestAnimationFrame(() => map.invalidateSize());
+    }
+
+    const expandControl = L.control({ position: "topright" });
+    expandControl.onAdd = function () {
+      expandButton = L.DomUtil.create("button", "map-expand-control");
+      expandButton.type = "button";
+      expandButton.textContent = "Expand map";
+      expandButton.setAttribute("aria-label", "Expand map to fill the screen");
+      expandButton.setAttribute("aria-pressed", "false");
+      L.DomEvent.disableClickPropagation(expandButton);
+      L.DomEvent.disableScrollPropagation(expandButton);
+      L.DomEvent.on(expandButton, "click", () => {
+        setMapExpanded(!mapContainer.classList.contains("map-expanded"));
+      });
+      return expandButton;
+    };
+    expandControl.addTo(map);
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape" && mapContainer.classList.contains("map-expanded")) {
+        setMapExpanded(false);
+      }
+    });
 
     const reachableStyle = { color: "#16834a", weight: 6, opacity: 0.9 };
     const blockedStyle = { color: "#c62828", weight: 6, opacity: 0.9, dashArray: "10 8" };
