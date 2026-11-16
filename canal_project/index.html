@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183e35">
+  <title>North Kilworth canal trip</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #edf3ee; color: #233531; font-family: system-ui, -apple-system, "Segoe UI", sans-serif; }
+    main { max-width: 720px; margin: auto; padding: 48px 20px; }
+    .eyebrow { color: #32795d; font-size: .78rem; font-weight: 750; letter-spacing: .12em; text-transform: uppercase; }
+    h1 { margin: 10px 0; color: #183e35; font-size: clamp(2rem, 8vw, 3rem); line-height: 1.08; letter-spacing: -.035em; }
+    .intro { color: #526963; line-height: 1.5; margin: 0 0 28px; }
+    nav { display: grid; gap: 14px; }
+    .card { display: flex; align-items: center; gap: 16px; padding: 20px; background: #fff; border: 1px solid #d5e4d9; border-radius: 16px; color: inherit; text-decoration: none; box-shadow: 0 4px 16px rgba(32, 63, 48, .05); }
+    .card:hover, .card:focus-visible { border-color: #3a8867; box-shadow: 0 5px 20px rgba(32, 63, 48, .12); }
+    .icon { flex: 0 0 48px; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 13px; background: #e4f2e8; font-size: 1.5rem; }
+    .text { flex: 1; }
+    .card strong { display: block; color: #193e34; font-size: 1.1rem; }
+    .card span.description { display: block; color: #5a6f68; font-size: .9rem; line-height: 1.4; margin-top: 4px; }
+    .arrow { color: #397f5e; font-size: 1.5rem; }
+    .notice { margin-top: 24px; color: #5c6e67; font-size: .85rem; line-height: 1.5; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="eyebrow">16–20 November 2026</div>
+    <h1>North Kilworth<br>canal trip</h1>
+    <p class="intro">Your maps and itinerary, together in one place.</p>
+    <nav aria-label="Trip resources">
+      <a class="card" href="interactive-map.html">
+        <span class="icon" aria-hidden="true">🗺️</span>
+        <span class="text"><strong>Interactive map</strong><span class="description">Explore the canal, closures and places to visit. Requires internet.</span></span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="card" href="offline-map.html">
+        <span class="icon" aria-hidden="true">⛵</span>
+        <span class="text"><strong>Route diagram</strong><span class="description">A simple visual overview with pubs, shops and walks.</span></span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+      <a class="card" href="itinerary.html">
+        <span class="icon" aria-hidden="true">📋</span>
+        <span class="text"><strong>Suggested itinerary</strong><span class="description">The hire company's four-night plan, with a Welford closure warning.</span></span>
+        <span class="arrow" aria-hidden="true">→</span>
+      </a>
+    </nav>
+    <p class="notice">Check current closures and turning points with the marina before setting off. To use the diagram without internet, save the diagram file to your device first.</p>
+  </main>
+</body>
+</html>
